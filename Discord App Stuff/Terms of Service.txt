@@ -1,0 +1,12 @@
+Terms of Service
+
+Copyright (c) 2025 Hexaraxia
+
+1. Data Collected
+This bot does not collect, store, or share any personal data. It only responds to slash commands by sending a video file.
+
+2. Third-Party Services
+The bot operates entirely within Discord and does not use third-party services to process or store data.
+
+3. Contact
+If you have questions or concerns about this bot, you can contact the developer @Hexaraxia on discord. (Will likely not respond).
