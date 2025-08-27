@@ -17,14 +17,12 @@ async def on_ready():
     except:
         pass
 
-@app_commands.command(name="f12", description="*giggle*")
-async def send_video(interaction: discord.Interaction):
+@bot.tree.command(name="f12", description="*giggle*")
+@app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
+async def f12(interaction: discord.Interaction):
     try:
         await interaction.response.send_message(file=discord.File("F12.mp4"))
     except:
         pass
-
-send_video.dm_permission = True
-bot.tree.add_command(send_video)
 
 bot.run(TOKEN)
